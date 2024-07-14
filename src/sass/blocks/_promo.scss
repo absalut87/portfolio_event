@@ -4,19 +4,19 @@
     background: url('../img/main_bg.jpg') no-repeat 50%/cover;
     padding-top: 205px;
     &__title {
-        color:antiquewhite;
+        color: #000;
         width: 535px;
         margin-top: 10px;
     }
     &__subtitle {
-        color:antiquewhite;
+        color: #000;
         position: relative;
         padding-left: 10px;
         z-index: 2;
         @include before_circle;
     }
     &__btns {
-        color:antiquewhite;
+        color: #000;
         margin-top: 25px;
         display: flex;
         align-items: center;
@@ -24,10 +24,10 @@
         width: 250px;
     }
     &__link {
-        color:antiquewhite;
+        color: #000;
         font-weight: bold;
         &:hover {
-            color: #000;
+            color: whitesmoke;
             text-decoration: none;
         }
     }
